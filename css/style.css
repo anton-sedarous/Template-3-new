@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    width: 1150px;
+    margin: auto;
+    
+}
+
+/* Start Header */
+.header{
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+}
+.header .heading{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    border-right: 1px solid darkgray;
+    font-family: Tahoma;
+    
+
+}
+.header .heading h2{
+    width: 80%;
+    color: #fff;
+    line-height: 1.8;   
+    font-size: 25px;
+    text-align: center;
+    
+}
+.header .heading h2 span:hover{
+    color: #00BCBA;
+    cursor: pointer;
+}
+.header .lorem{
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 100px;
+    float: left;
+}
+.header .lorem p{
+    font-family: Tahoma;
+    color: darkgray;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.header .lorem button{
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    background: #00BCBA;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+/* End Header */
+
+/* Start Magna */
+.magna{
+    width: 100%;
+    height: 350px;
+    border-bottom: 2px solid #DDD;
+    padding-top: 50px;
+}
+.magna .learn{
+    width: 50%;
+    float: left;
+    border-right: 2px solid #DDD;
+}
+.magna .learn h2{
+    font-family: Tahoma;
+    color: #777;
+    text-decoration: underline;
+}
+.magna .learn p {
+    line-height: 1.9;
+    font-family: Tahoma;
+    color: #888;
+}
+.magna .learn button{
+    border: 0;
+    background: #fff;
+    border: 1px solid #DDD;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    color: #888;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+}
+.magna .learn button:hover{
+    background-color: #888;
+    color: #fff;
+}
+.ipsum{
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+    visibility: hidden;
+}
+.ipsum p{
+    line-height: 2;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #666;
+}
+.ipsum i{
+    padding-right: 20px;
+    color: #00BCBA;
+}
+/* End Magna */
+
+
+
+/*Start Pharetra*/
+.pharetra{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.pharetra .part img {
+    float: left;
+    width: 40%;
+}
+.pharetra .part .he {
+    float: left;
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.pharetra .part .he h2{
+    color: #777;
+    font-family: Tahoma;
+    text-decoration: underline;
+}
+.pharetra .part .he p{
+    color: #888;
+    font-family: Tahoma;
+    line-height: 2;
+    font-weight: bold;
+}
+.pharetra .part{
+    padding-bottom: 40px;
+    height: 350px;
+}
+.pharetra .part .he button{
+    background-color: none;
+    border: 1px solid #DDD;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.pharetra .part .he button:hover{
+    background-color: #888;
+    color: #fff;
+
+}
+.clear{
+    clear: both;
+}
+/*End Pharetra*/
+
+
+
+
+
+
+/* Start Final Button */
+.finalButton button{
+    background: #fff;
+    border: 2px solid #DDD;
+    margin: 30px 450px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: Tahoma;
+    cursor: pointer;
+    outline: 0;
+}
+.finalButton button:hover{
+    background-color: #888;
+    color: #fff;
+}
+/* End Final Button */
+
+
+
+/*Start Form*/
+.form{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.form .inputs{
+    width: 50%;
+    float: left;
+    border-right: 2px solid #DDD;
+}
+.form .inputs h2{
+    font-family: Tahoma;
+}
+.form .inputs p{
+    line-height: 2;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #888;
+}
+.form .inputs input[type=text]  , input[type=email] {
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    outline: 0;
+    font-size: 20px;
+}
+.form .inputs textarea{
+    width: 505px;
+    outline: 0;
+    padding-left: 20px;
+    font-size: 17px;
+
+}
+.form .inputs input[type=submit]{
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #DDDD;
+    padding: 10px;
+    margin-top: 15px;  
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.form .inputs input[type=submit]:hover{
+    background-color: #888;
+    color: #fff;
+}
+.form .links{
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.form .links p{
+    line-height: 3;
+    font-family: Arial;
+    color: #888;
+    cursor: pointer;
+}
+.form .links p i{
+    padding-right: 25px;
+    color: #00BCAA;
+    cursor: pointer;
+}
+/*End Form*/
+
+
+
+
+
+
+/* Start Footer */
+.footer{
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    border-top: 1px solid #DDD;     
+}
+.footer p{
+    text-align: center;
+    line-height: 150px;
+    font: Tahoma;
+    color: #777;
+    
+}
+/* End Footer */
+
